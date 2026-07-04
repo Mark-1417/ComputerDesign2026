@@ -1,0 +1,81 @@
+{C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/plcomp.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/plcomp.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module plcomp
+
+Top level modules:
+	plcomp
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/PLCPU.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/PLCPU.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module PLCPU
+
+Top level modules:
+	PLCPU
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/ctrl.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/ctrl.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/im.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/im.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/dm.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/dm.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/PC.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/PC.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/ctrl_encode_def.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/ctrl_encode_def.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/RF.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/RF.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/pl_reg.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/pl_reg.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module pl_reg
+
+Top level modules:
+	pl_reg
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/NPC.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/NPC.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/EXT.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/EXT.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/alu.v} {1 {vlog -work work -vopt -stats=none {C:/Users/USER/Desktop/Test Project Files/pipeline_cpu/alu.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}}

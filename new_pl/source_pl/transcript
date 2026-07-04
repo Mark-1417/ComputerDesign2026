@@ -1,0 +1,206 @@
+# Reading D:/modeltech64_10.5/tcl/vsim/pref.tcl
+# //  ModelSim SE-64 10.5 Feb 13 2016 
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# OpenFile {C:/Users/K/Desktop/new pl/plcpu.mpf}
+# Loading project plcpu
+# Compile of RF.v was successful.
+# Compile of alu.v was successful.
+# Compile of ctrl.v was successful.
+# Compile of ctrl_encode_def.v was successful.
+# Compile of dm.v was successful.
+# Compile of EXT.v was successful.
+# Compile of im.v was successful.
+# Compile of NPC.v was successful.
+# Compile of PC.v was successful.
+# Compile of pl_reg.v was successful.
+# Compile of plcomp.v was successful.
+# Compile of plcomp_tb.v was successful.
+# Compile of PLCPU.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.plcomp_tb
+# vsim -voptargs="+acc" work.plcomp_tb 
+# Start time: 22:03:41 on May 05,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.plcomp_tb(fast)
+# Loading work.plcomp(fast)
+# Loading work.PLCPU(fast)
+# Loading work.ctrl(fast)
+# Loading work.PC(fast)
+# Loading work.NPC(fast)
+# Loading work.EXT(fast)
+# Loading work.RF(fast)
+# Loading work.alu(fast)
+# Loading work.pl_reg(fast)
+# Loading work.pl_reg(fast__1)
+# Loading work.pl_reg(fast__2)
+# Loading work.pl_reg(fast__3)
+# Loading work.dm(fast)
+# Loading work.im(fast)
+# ** Warning: (vsim-3015) C:/Users/K/Desktop/new pl/PLCPU.v(230): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/K/Desktop/new pl/pl_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /plcomp_tb/plcomp/U_PLCPU/ID_EX File: C:/Users/K/Desktop/new pl/pl_reg.v
+# ** Warning: (vsim-3015) C:/Users/K/Desktop/new pl/PLCPU.v(262): [PCDPC] - Port size (1) does not match connection size (32) for port 'flush'. The port definition is at: C:/Users/K/Desktop/new pl/pl_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /plcomp_tb/plcomp/U_PLCPU/EX_MEM File: C:/Users/K/Desktop/new pl/pl_reg.v
+# ** Warning: (vsim-3015) C:/Users/K/Desktop/new pl/PLCPU.v(262): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/K/Desktop/new pl/pl_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /plcomp_tb/plcomp/U_PLCPU/EX_MEM File: C:/Users/K/Desktop/new pl/pl_reg.v
+# ** Warning: (vsim-3015) C:/Users/K/Desktop/new pl/PLCPU.v(288): [PCDPC] - Port size (1) does not match connection size (32) for port 'flush'. The port definition is at: C:/Users/K/Desktop/new pl/pl_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /plcomp_tb/plcomp/U_PLCPU/MEM_WB File: C:/Users/K/Desktop/new pl/pl_reg.v
+# ** Warning: (vsim-3015) C:/Users/K/Desktop/new pl/PLCPU.v(288): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: C:/Users/K/Desktop/new pl/pl_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /plcomp_tb/plcomp/U_PLCPU/MEM_WB File: C:/Users/K/Desktop/new pl/pl_reg.v
+add wave -r /*
+run
+# 
+#  cycle=          1, IF_PC=00000000, IF_ins=23406293, 
+#  cycle=          2, IF_PC=00000000, IF_ins=23406293, 
+#  cycle=          3, IF_PC=00000000, IF_ins=23406293, 
+#  cycle=          4, IF_PC=00000000, IF_ins=23406293, 
+#  cycle=          5, IF_PC=00000000, IF_ins=23406293, 
+#  cycle=          6, IF_PC=00000004, IF_ins=00001337, 
+#  cycle=          7, IF_PC=00000008, IF_ins=0062e2b3, 
+#  cycle=          8, IF_PC=0000000c, IF_ins=98765337, 
+#  cycle=          9, IF_PC=00000010, IF_ins=34528393, x 5 = 00000234  
+#  cycle=         10, IF_PC=00000014, IF_ins=c0030413, x 6 = 00001000  
+#  cycle=         11, IF_PC=00000018, IF_ins=7bc2c493, x 5 = 00001234  
+#  cycle=         12, IF_PC=0000001c, IF_ins=0343b193, x 6 = 98765000  
+#  cycle=         13, IF_PC=00000020, IF_ins=fff2b213, x 7 = 00001579  
+#  cycle=         14, IF_PC=00000024, IF_ins=7654f913, x 8 = 98764c00  
+#  cycle=         15, IF_PC=00000028, IF_ins=12332a13, x 9 = 00001588  
+#  cycle=         16, IF_PC=0000002c, IF_ins=405309b3, x 3 = 00000000  
+#  cycle=         17, IF_PC=00000030, IF_ins=006a4ab3, x 4 = 00000001  
+#  cycle=         18, IF_PC=00000034, IF_ins=014a8b33, x18 = 00000500  
+#  cycle=         19, IF_PC=00000038, IF_ins=005b0b33, x20 = 00000001  
+#  cycle=         20, IF_PC=0000003c, IF_ins=406b0bb3, x19 = 98763dcc  
+#  cycle=         21, IF_PC=00000040, IF_ins=016becb3, x21 = 98765001  
+#  cycle=         22, IF_PC=00000044, IF_ins=016bfd33, x22 = 98765002  
+#  cycle=         23, IF_PC=00000048, IF_ins=01acadb3, x22 = 98766236  
+#  cycle=         24, IF_PC=0000004c, IF_ins=01acbe33, x23 = 00001236  
+#  cycle=         25, IF_PC=00000050, IF_ins=00418193, x25 = 98767236  
+#  cycle=         26, IF_PC=00000054, IF_ins=003d1db3, x26 = 00000236  
+#  cycle=         27, IF_PC=00000058, IF_ins=003cde33, x27 = 00000001  
+#  cycle=         28, IF_PC=0000005c, IF_ins=403cdeb3, x28 = 00000000  
+#  cycle=         29, IF_PC=00000060, IF_ins=01099d93, x 3 = 00000004  
+#  cycle=         30, IF_PC=00000064, IF_ins=0049de13, x27 = 00002360  
+#  cycle=         31, IF_PC=00000068, IF_ins=4049de93, x28 = 09876723  
+#  cycle=         32, IF_PC=0000006c, IF_ins=00000193, x29 = f9876723  
+#  cycle=         33, IF_PC=00000070, IF_ins=0ff00293, x27 = 3dcc0000  
+#  cycle=         34, IF_PC=00000074, IF_ins=0131a023, x28 = 098763dc  
+#  cycle=         35, IF_PC=00000078, IF_ins=0151a223, x29 = f98763dc  
+#  cycle=         36, IF_PC=0000007c, IF_ins=0171a423, x 3 = 00000000   memaddr = 00000000, memdata = 98763dcc 
+#  cycle=         37, IF_PC=00000080, IF_ins=0001a283, x 5 = 000000ff   memaddr = 00000004, memdata = 98765001 
+#  cycle=         38, IF_PC=00000084, IF_ins=0081a383,  memaddr = 00000008, memdata = 00001236 
+#  cycle=         39, IF_PC=00000088, IF_ins=0001a023, 
+#  cycle=         40, IF_PC=0000008c, IF_ins=009074b3, 
+#  cycle=         41, IF_PC=00000090, IF_ins=00729463, x 5 = 98763dcc   memaddr = 00000000, memdata = 00000000 
+#  cycle=         42, IF_PC=00000094, IF_ins=00148493, x 7 = 00001236  
+#  cycle=         43, IF_PC=00000098, IF_ins=0072d463, 
+#  cycle=         44, IF_PC=00000098, IF_ins=0072d463, x 9 = 00000000  
+#  cycle=         45, IF_PC=0000009c, IF_ins=00448493, 
+#  cycle=         46, IF_PC=000000a0, IF_ins=0072f463, 
+#  cycle=         47, IF_PC=000000a4, IF_ins=00248493, 
+#  cycle=         48, IF_PC=000000a8, IF_ins=0072c463, 
+#  cycle=         49, IF_PC=000000a8, IF_ins=0072c463, x 9 = 00000004  
+#  cycle=         50, IF_PC=000000ac, IF_ins=00748493, 
+#  cycle=         51, IF_PC=000000b0, IF_ins=0072e063, 
+#  cycle=         52, IF_PC=000000b0, IF_ins=0072e063, 
+#  cycle=         53, IF_PC=000000b4, IF_ins=00848493, 
+#  cycle=         54, IF_PC=000000b8, IF_ins=01738463, 
+#  cycle=         55, IF_PC=000000bc, IF_ins=00a48493, 
+#  cycle=         56, IF_PC=000000c0, IF_ins=0091a023, 
+#  cycle=         57, IF_PC=000000c0, IF_ins=0091a023, x 9 = 0000000c  
+#  cycle=         58, IF_PC=000000c4, IF_ins=0001a503, 
+#  cycle=         59, IF_PC=000000c8, IF_ins=00c000ef,  memaddr = 00000000, memdata = 0000000c 
+#  cycle=         60, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=         61, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=         62, IF_PC=000000d4, IF_ins=55056513, x10 = 0000000c  
+#  cycle=         63, IF_PC=000000d8, IF_ins=00a1a823, x 1 = 000000cc  
+#  cycle=         64, IF_PC=000000dc, IF_ins=00008067, 
+#  cycle=         65, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 0000055c 
+#  cycle=         66, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 0000055c  
+#  cycle=         67, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=         68, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=         69, IF_PC=000000d4, IF_ins=55056513, 
+ cycle=         70, IF_PC=000000d8, IF_ins=00a1a823, Printing not supported.
+# Printing not supported.
+run
+#  memaddr = 0000000c, memdata = 00000561 
+#  cycle=         71, IF_PC=000000dc, IF_ins=00008067, x10 = 00000561  
+#  cycle=         72, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 00000571 
+#  cycle=         73, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 00000571  
+#  cycle=         74, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=         75, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=         76, IF_PC=000000d4, IF_ins=55056513, 
+#  cycle=         77, IF_PC=000000d8, IF_ins=00a1a823,  memaddr = 0000000c, memdata = 00000576 
+#  cycle=         78, IF_PC=000000dc, IF_ins=00008067, x10 = 00000576  
+#  cycle=         79, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 00000576 
+#  cycle=         80, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 00000576  
+#  cycle=         81, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=         82, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=         83, IF_PC=000000d4, IF_ins=55056513, 
+#  cycle=         84, IF_PC=000000d8, IF_ins=00a1a823,  memaddr = 0000000c, memdata = 0000057b 
+#  cycle=         85, IF_PC=000000dc, IF_ins=00008067, x10 = 0000057b  
+#  cycle=         86, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 0000057b 
+#  cycle=         87, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 0000057b  
+#  cycle=         88, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=         89, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=         90, IF_PC=000000d4, IF_ins=55056513, 
+#  cycle=         91, IF_PC=000000d8, IF_ins=00a1a823,  memaddr = 0000000c, memdata = 00000580 
+#  cycle=         92, IF_PC=000000dc, IF_ins=00008067, x10 = 00000580  
+#  cycle=         93, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 000005d0 
+#  cycle=         94, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 000005d0  
+#  cycle=         95, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=         96, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=         97, IF_PC=000000d4, IF_ins=55056513, 
+#  cycle=         98, IF_PC=000000d8, IF_ins=00a1a823,  memaddr = 0000000c, memdata = 000005d5 
+#  cycle=         99, IF_PC=000000dc, IF_ins=00008067, x10 = 000005d5  
+#  cycle=        100, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 000005d5 
+#  cycle=        101, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 000005d5  
+#  cycle=        102, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=        103, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=        104, IF_PC=000000d4, IF_ins=55056513, 
+#  cycle=        105, IF_PC=000000d8, IF_ins=00a1a823,  memaddr = 0000000c, memdata = 000005da 
+#  cycle=        106, IF_PC=000000dc, IF_ins=00008067, x10 = 000005da  
+#  cycle=        107, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 000005da 
+#  cycle=        108, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 000005da  
+#  cycle=        109, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=        110, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=        111, IF_PC=000000d4, IF_ins=55056513, 
+#  cycle=        112, IF_PC=000000d8, IF_ins=00a1a823,  memaddr = 0000000c, memdata = 000005df 
+#  cycle=        113, IF_PC=000000dc, IF_ins=00008067, x10 = 000005df  
+#  cycle=        114, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 000005df 
+#  cycle=        115, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 000005df  
+#  cycle=        116, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=        117, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=        118, IF_PC=000000d4, IF_ins=55056513, 
+#  cycle=        119, IF_PC=000000d8, IF_ins=00a1a823,  memaddr = 0000000c, memdata = 000005e4 
+#  cycle=        120, IF_PC=000000dc, IF_ins=00008067, x10 = 000005e4  
+#  cycle=        121, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 000005f4 
+#  cycle=        122, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 000005f4  
+#  cycle=        123, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=        124, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=        125, IF_PC=000000d4, IF_ins=55056513, 
+#  cycle=        126, IF_PC=000000d8, IF_ins=00a1a823,  memaddr = 0000000c, memdata = 000005f9 
+#  cycle=        127, IF_PC=000000dc, IF_ins=00008067, x10 = 000005f9  
+#  cycle=        128, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 000005f9 
+#  cycle=        129, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 000005f9  
+#  cycle=        130, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=        131, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=        132, IF_PC=000000d4, IF_ins=55056513, 
+#  cycle=        133, IF_PC=000000d8, IF_ins=00a1a823,  memaddr = 0000000c, memdata = 000005fe 
+#  cycle=        134, IF_PC=000000dc, IF_ins=00008067, x10 = 000005fe  
+#  cycle=        135, IF_PC=000000e0, IF_ins=xxxxxxxx,  memaddr = 00000010, memdata = 000005fe 
+#  cycle=        136, IF_PC=000000e4, IF_ins=xxxxxxxx, x10 = 000005fe  
+#  cycle=        137, IF_PC=000000cc, IF_ins=00550513, 
+#  cycle=        138, IF_PC=000000d0, IF_ins=00a1a623, 
+#  cycle=        139, IF_PC=000000d4, IF_ins=55056513, 
+ cycle=        140, IF_PC=000000d8, IF_ins=00a1a823, # End time: 23:33:26 on May 05,2025, Elapsed time: 1:29:45
+# Errors: 2, Warnings: 5

@@ -1,0 +1,331 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dd:/COP/newsc
+valu
+Z1 !s110 1783178886
+!i10b 1
+!s100 SIfg7@M67H0[ZLRK1=[j`3
+INERMEjG^6E[266Ck7^7h=1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1742460220
+8d:/COP/new_pl/source_pl/alu.v
+Fd:/COP/new_pl/source_pl/alu.v
+L0 3
+Z3 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z4 !s108 1783178886.000000
+!s107 d:\COP\new_pl\source_pl\ctrl_encode_def.v|d:/COP/newsc/iverilog-tests/tb/pl_final_tb.v|d:/COP/new_pl/source_pl/RF.v|d:/COP/new_pl/source_pl/pl_reg.v|d:/COP/new_pl/source_pl/PLCPU.v|d:/COP/new_pl/source_pl/plcomp.v|d:/COP/new_pl/source_pl/PC.v|d:/COP/new_pl/source_pl/NPC.v|d:/COP/new_pl/source_pl/im.v|d:/COP/new_pl/source_pl/EXT.v|d:/COP/new_pl/source_pl/dm.v|d:/COP/new_pl/source_pl/ctrl_encode_def.v|d:/COP/new_pl/source_pl/ctrl.v|d:/COP/new_pl/source_pl/alu.v|
+Z5 !s90 -reportprogress|300|-work|work|d:/COP/new_pl/source_pl/alu.v|d:/COP/new_pl/source_pl/ctrl.v|d:/COP/new_pl/source_pl/ctrl_encode_def.v|d:/COP/new_pl/source_pl/dm.v|d:/COP/new_pl/source_pl/EXT.v|d:/COP/new_pl/source_pl/im.v|d:/COP/new_pl/source_pl/NPC.v|d:/COP/new_pl/source_pl/PC.v|d:/COP/new_pl/source_pl/plcomp.v|d:/COP/new_pl/source_pl/PLCPU.v|d:/COP/new_pl/source_pl/pl_reg.v|d:/COP/new_pl/source_pl/RF.v|d:/COP/newsc/iverilog-tests/tb/pl_final_tb.v|
+!i113 1
+Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 tCvgOpt 0
+vctrl
+R1
+!i10b 1
+!s100 CB^^fUiS][e=L<5bMhY2h0
+I9fY:Kzl`E_?2jl49R6jSY1
+R2
+R0
+w1742461154
+8d:/COP/new_pl/source_pl/ctrl.v
+Fd:/COP/new_pl/source_pl/ctrl.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+Z8 !s107 d:\COP\new_pl\source_pl\ctrl_encode_def.v|d:/COP/newsc/iverilog-tests/tb/pl_final_tb.v|d:/COP/new_pl/source_pl/RF.v|d:/COP/new_pl/source_pl/pl_reg.v|d:/COP/new_pl/source_pl/PLCPU.v|d:/COP/new_pl/source_pl/plcomp.v|d:/COP/new_pl/source_pl/PC.v|d:/COP/new_pl/source_pl/NPC.v|d:/COP/new_pl/source_pl/im.v|d:/COP/new_pl/source_pl/EXT.v|d:/COP/new_pl/source_pl/dm.v|d:/COP/new_pl/source_pl/ctrl_encode_def.v|d:/COP/new_pl/source_pl/ctrl.v|d:/COP/new_pl/source_pl/alu.v|
+R5
+!i113 1
+R6
+R7
+vdm
+R1
+!i10b 1
+!s100 ?a9DTC7HUn;al;lI0_UnW1
+IolIHc5U:FYYIA>PT8NXH73
+R2
+R0
+w1742174830
+8d:/COP/new_pl/source_pl/dm.v
+Fd:/COP/new_pl/source_pl/dm.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 1
+R6
+R7
+vEXT
+R1
+!i10b 1
+!s100 b<MV6mWQSa@F]hkhI@Odk2
+I8@7TcL[o;3FRTjDKo^A[12
+R2
+R0
+w1742179198
+8d:/COP/new_pl/source_pl/EXT.v
+Fd:/COP/new_pl/source_pl/EXT.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 1
+R6
+R7
+n@e@x@t
+vim
+R1
+!i10b 1
+!s100 @XDV4jnN0X`@3O=CWoJZJ2
+I6:gK]9PglEA1=9RZ`mX3n0
+R2
+R0
+w1781615659
+8d:/COP/new_pl/source_pl/im.v
+Fd:/COP/new_pl/source_pl/im.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 1
+R6
+R7
+vNPC
+R1
+!i10b 1
+!s100 zf<H2MNhfgmTJd`_jea]L3
+Iagh=LLhJZhJBhaGcm0Waj1
+R2
+R0
+w1742215236
+8d:/COP/new_pl/source_pl/NPC.v
+Fd:/COP/new_pl/source_pl/NPC.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 1
+R6
+R7
+n@n@p@c
+vPC
+R1
+!i10b 1
+!s100 ^^AdzZCPl>Z<?W[gZ8hb=2
+Ig`:EniRHGln[6n1Thi1X;1
+R2
+R0
+w1742319270
+8d:/COP/new_pl/source_pl/PC.v
+Fd:/COP/new_pl/source_pl/PC.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 1
+R6
+R7
+n@p@c
+vpl_final_tb
+R1
+!i10b 1
+!s100 ie7H^9QBj:D_<oRnP@07Z3
+IDZRS72aUP=ghXifjRghFB3
+R2
+R0
+w1779969911
+8d:/COP/newsc/iverilog-tests/tb/pl_final_tb.v
+Fd:/COP/newsc/iverilog-tests/tb/pl_final_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 1
+R6
+R7
+vpl_reg
+R1
+!i10b 1
+!s100 [mUVG^Z8L8VcZ<RMEZaDO3
+IE4[X:[A39R6?VSj9Bk7_l0
+R2
+R0
+w1742319380
+8d:/COP/new_pl/source_pl/pl_reg.v
+Fd:/COP/new_pl/source_pl/pl_reg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 1
+R6
+R7
+vplcomp
+R1
+!i10b 1
+!s100 iG[Yb_S``KWebL0fmfL[=1
+I]E^Cdz<H1]dHaBdHYARzz2
+R2
+R0
+w1739076262
+8d:/COP/new_pl/source_pl/plcomp.v
+Fd:/COP/new_pl/source_pl/plcomp.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 1
+R6
+R7
+vPLCPU
+R1
+!i10b 1
+!s100 _eb1kf>HB33aOZ1QfS]@o3
+INEJ`g_Mk`h6M:TnM@D>mA1
+R2
+R0
+w1743409048
+8d:/COP/new_pl/source_pl/PLCPU.v
+Fd:/COP/new_pl/source_pl/PLCPU.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 1
+R6
+R7
+n@p@l@c@p@u
+vRF
+R1
+!i10b 1
+!s100 YJDI[bR;J^W^:Z6bcb0O>0
+ITHHCdb5:?h<;_39IP9CEW2
+R2
+R0
+w1739452186
+8d:/COP/new_pl/source_pl/RF.v
+Fd:/COP/new_pl/source_pl/RF.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R8
+R5
+!i113 1
+R6
+R7
+n@r@f
+vsccomp
+Z9 !s110 1783177788
+!i10b 1
+!s100 EY[QIeBWOCIgkFaf4Koee2
+Iz@cGK`]:>RABImn_1iA:]3
+R2
+R0
+Z10 w1779357920
+8d:/COP/newsc/source-sc/sccomp.v
+Fd:/COP/newsc/source-sc/sccomp.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z11 !s108 1783177785.000000
+Z12 !s107 d:\COP\newsc\source-sc\ctrl_encode_def.v|d:/COP/newsc/source-sc/sccomp_tb.v|d:/COP/newsc/source-sc/RF.v|d:/COP/newsc/source-sc/SCCPU.v|d:/COP/newsc/source-sc/sccomp.v|d:/COP/newsc/source-sc/PC.v|d:/COP/newsc/source-sc/NPC.v|d:/COP/newsc/source-sc/im.v|d:/COP/newsc/source-sc/EXT.v|d:/COP/newsc/source-sc/dm.v|d:/COP/newsc/source-sc/ctrl_encode_def.v|d:/COP/newsc/source-sc/ctrl.v|d:/COP/newsc/source-sc/alu.v|
+Z13 !s90 -reportprogress|300|-work|work|d:/COP/newsc/source-sc/alu.v|d:/COP/newsc/source-sc/ctrl.v|d:/COP/newsc/source-sc/ctrl_encode_def.v|d:/COP/newsc/source-sc/dm.v|d:/COP/newsc/source-sc/EXT.v|d:/COP/newsc/source-sc/im.v|d:/COP/newsc/source-sc/NPC.v|d:/COP/newsc/source-sc/PC.v|d:/COP/newsc/source-sc/sccomp.v|d:/COP/newsc/source-sc/SCCPU.v|d:/COP/newsc/source-sc/RF.v|d:/COP/newsc/source-sc/sccomp_tb.v|
+!i113 1
+R6
+R7
+vsccomp_tb
+R9
+!i10b 1
+!s100 645khYPS1=RLJf=MWzCc^1
+IRmaTkT7jVKC3RU0iRReHT0
+R2
+R0
+w1781606096
+8d:/COP/newsc/source-sc/sccomp_tb.v
+Fd:/COP/newsc/source-sc/sccomp_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R6
+R7
+vSCCPU
+R9
+!i10b 1
+!s100 gc?4Qn5DC]0`ono0@5VWT0
+I<@9]jj9jE>RmRBJ4W^>180
+R2
+R0
+R10
+8d:/COP/newsc/source-sc/SCCPU.v
+Fd:/COP/newsc/source-sc/SCCPU.v
+L0 2
+R3
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 1
+R6
+R7
+n@s@c@c@p@u

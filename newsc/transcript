@@ -1,0 +1,179 @@
+# //  ModelSim SE-64 10.6d Feb 24 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do sim_pl_sid.do
+# d:/COP/newsc
+# d:/COP/new_pl/source_pl
+# d:/COP/newsc/iverilog-tests/tb
+# d:/COP/newsc/source-sc
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim SE-64 vmap 10.6d Lib Mapping Utility 2018.02 Feb 24 2018
+# vmap work work 
+# Modifying modelsim.ini
+# Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+# Start time: 23:28:06 on Jul 04,2026
+# vlog -reportprogress 300 -work work d:/COP/new_pl/source_pl/alu.v d:/COP/new_pl/source_pl/ctrl.v d:/COP/new_pl/source_pl/ctrl_encode_def.v d:/COP/new_pl/source_pl/dm.v d:/COP/new_pl/source_pl/EXT.v d:/COP/new_pl/source_pl/im.v d:/COP/new_pl/source_pl/NPC.v d:/COP/new_pl/source_pl/PC.v d:/COP/new_pl/source_pl/plcomp.v d:/COP/new_pl/source_pl/PLCPU.v d:/COP/new_pl/source_pl/pl_reg.v d:/COP/new_pl/source_pl/RF.v d:/COP/newsc/iverilog-tests/tb/pl_final_tb.v 
+# -- Compiling module alu
+# -- Compiling module ctrl
+# -- Compiling module dm
+# -- Compiling module EXT
+# -- Compiling module im
+# -- Compiling module NPC
+# -- Compiling module PC
+# -- Compiling module plcomp
+# -- Compiling module PLCPU
+# -- Compiling module pl_reg
+# -- Compiling module RF
+# -- Compiling module pl_final_tb
+# 
+# Top level modules:
+# 	pl_final_tb
+# End time: 23:28:06 on Jul 04,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0## vsim -voptargs="+acc" work.pl_final_tb "+IMEM=d:/COP/newsc/source-sc/rv32_sid_sort_sim.dat" "+CYCLES=800" 
+# Start time: 23:28:06 on Jul 04,2026
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.pl_final_tb
+# Loading work.plcomp
+# Loading work.PLCPU
+# Loading work.ctrl
+# Loading work.PC
+# Loading work.NPC
+# Loading work.EXT
+# Loading work.RF
+# Loading work.alu
+# Loading work.pl_reg
+# Loading work.dm
+# Loading work.im
+# ** Warning: (vsim-3015) d:/COP/new_pl/source_pl/PLCPU.v(230): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: d:/COP/new_pl/source_pl/pl_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /pl_final_tb/dut/U_PLCPU/ID_EX File: d:/COP/new_pl/source_pl/pl_reg.v
+# ** Warning: (vsim-3015) d:/COP/new_pl/source_pl/PLCPU.v(262): [PCDPC] - Port size (1) does not match connection size (32) for port 'flush'. The port definition is at: d:/COP/new_pl/source_pl/pl_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /pl_final_tb/dut/U_PLCPU/EX_MEM File: d:/COP/new_pl/source_pl/pl_reg.v
+# ** Warning: (vsim-3015) d:/COP/new_pl/source_pl/PLCPU.v(262): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: d:/COP/new_pl/source_pl/pl_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /pl_final_tb/dut/U_PLCPU/EX_MEM File: d:/COP/new_pl/source_pl/pl_reg.v
+# ** Warning: (vsim-3015) d:/COP/new_pl/source_pl/PLCPU.v(288): [PCDPC] - Port size (1) does not match connection size (32) for port 'flush'. The port definition is at: d:/COP/new_pl/source_pl/pl_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /pl_final_tb/dut/U_PLCPU/MEM_WB File: d:/COP/new_pl/source_pl/pl_reg.v
+# ** Warning: (vsim-3015) d:/COP/new_pl/source_pl/PLCPU.v(288): [PCDPC] - Port size (1) does not match connection size (32) for port 'en'. The port definition is at: d:/COP/new_pl/source_pl/pl_reg.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /pl_final_tb/dut/U_PLCPU/MEM_WB File: d:/COP/new_pl/source_pl/pl_re# ** # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Mase  Hostname: DESKTOP-T6RV42S  ProcessID: 12256
+#           Attempting to use alternate WLF file "./wlftajmf2n".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftajmf2n
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# 0 ps
+# 8400 ns
+# ========================================
+#  A4ø CPU + f˜íè ˇå
+# ========================================
+ memaddr = 00000180, memdata = 02181018  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288  memaddr = 00000184, memdata = 00111288 # End time: 23:28:38 on Jul 04,2026, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 8
+ memdata = 00000772  memaddr = 0000000c, memdata = 00000777  memaddr = 00000010, memdata = 00000777  memaddr = 0000000c, memdata = 0000077c  memaddr = 00000010, memdata = 0000077c  memaddr = 0000000c, memdata = 00000781  memaddr = 00000010, memdata = 000007d1  memaddr = 0000000c, memdata = 000007d6  memaddr = 00000010, memdata = 000007d6  memaddr = 0000000c, memdata = 000007db  memaddr = 00000010, memdata = 000007db  memaddr = 0000000c, memdata = 000007e0 [SNAPSHOT] registers
+# [REG] x0=00000000
+# [REG] x1=000000cc
+# [REG] x2=00000000
+# [REG] x3=00000000
+# [REG] x4=00000001
+# [REG] x5=98763dcc
+# [REG] x6=98765000
+# [REG] x7=00001236
+# [REG] x8=98764c00
+# [REG] x9=0000000c
+# [REG] x10=000007e0
+# [REG] x11=00000000
+# [REG] x12=00000000
+# [REG] x13=00000000
+# [REG] x14=00000000
+# [REG] x15=00000000
+# [REG] x16=00000000
+# [REG] x17=00000000
+# [REG] x18=00000500
+# [REG] x19=98763dcc
+# [REG] x20=00000001
+# [REG] x21=98765001
+# [REG] x22=98766236
+# [REG] x23=00001236
+# [REG] x24=00000000
+# [REG] x25=98767236
+# [REG] x26=00000236
+# [REG] x27=3dcc0000
+# [REG] x28=098763dc
+# [REG] x29=f98763dc
+# [REG] x30=00000000
+# [REG] x31=00000000
+# [SNAPSHOT] memory
+# [MEM] m0=0000000c
+# [MEM] m1=98765001
+# [MEM] m2=00001236
+# [MEM] m3=000007e0
+# [MEM] m4=000007db
+# [MEM] m5=00000000
+# [MEM] m6=00000000
+# [MEM] m7=00000000
+# [MEM] m8=00000000
+# [MEM] m9=00000000
+# [MEM] m10=00000000
+# [MEM] m11=00000000
+# [MEM] m12=00000000
+# [MEM] m13=00000000
+# [MEM] m14=00000000
+# [MEM] m15=00000000
+# [MEM] m16=00000000
+# [MEM] m17=00000000
+# [MEM] m18=00000000
+# [MEM] m19=00000000
+# [MEM] m20=00000000
+# [MEM] m21=00000000
+# [MEM] m22=00000000
+# [MEM] m23=00000000
+# [MEM] m24=00000000
+# [MEM] m25=00000000
+# [MEM] m26=00000000
+# [MEM] m27=00000000
+# [MEM] m28=00000000
+# [MEM] m29=00000000
+# [MEM] m30=00000000
+# [MEM] m31=00000000
+# [MEM] m32=00000000
+# [MEM] m33=00000000
+# [MEM] m34=00000000
+# [MEM] m35=00000000
+# [MEM] m36=00000000
+# [MEM] m37=00000000
+# [MEM] m38=00000000
+# [MEM] m39=00000000
+# [MEM] m40=00000000
+# [MEM] m41=00000000
+# [MEM] m42=00000000
+# [MEM] m43=00000000
+# [MEM] m44=00000000
+# [MEM] m45=00000000
+# [MEM] m46=00000000
+# [MEM] m47=00000000
+# [MEM] m48=00000000
+# [MEM] m49=00000000
+# [MEM] m50=00000000
+# [MEM] m51=00000000
+# [MEM] m52=00000000
+# [MEM] m53=00000000
+# [MEM] m54=00000000
+# [MEM] m55=00000000
+# [MEM] m56=00000000
+# [MEM] m57=00000000
+# [MEM] m58=00000000
+# [MEM] m59=00000000
+# [MEM] m60=00000000
+# [MEM] m61=00000000
+# [MEM] m62=00000000
+# [MEM] m63=00000000
+# ** Note: $finish    : d:/COP/newsc/iverilog-tests/tb/pl_final_tb.v(45)
+#    Time: 2045 ns  Iteration: 1  Instance: /pl_final_tb

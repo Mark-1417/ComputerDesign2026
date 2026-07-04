@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu May 21 21:20:22 2026
+# Process ID: 62548
+# Current directory: D:/COP/newsc/vivado/sccpu_project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent74152 D:\COP\newsc\vivado\sccpu_project\sccpu_project.xpr
+# Log file: D:/COP/newsc/vivado/sccpu_project/vivado.log
+# Journal file: D:/COP/newsc/vivado/sccpu_project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/COP/newsc/vivado/sccpu_project/sccpu_project.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/COP/newsc/source-sc/sccomp.v] -no_script -reset -force -quiet
+remove_files  D:/COP/newsc/source-sc/sccomp.v
+launch_runs synth_1 -jobs 11
+wait_on_run synth_1
+add_files -norecurse {D:/COP/newsc/source-sc/hex_to_7seg.v D:/COP/newsc/source-sc/scan_7seg.v}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 11
+wait_on_run synth_1
+launch_runs impl_1 -jobs 11
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 11
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/COP/newsc/vivado/sccpu_project/sccpu_project.runs/impl_1/sccomp_top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/COP/newsc/vivado/sccpu_project/sccpu_project.runs/impl_1/sccomp_top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property PROGRAM.FILE {D:/COP/newsc/vivado/sccpu_project/sccpu_project.runs/impl_1/sccomp_top.bit} [get_hw_devices xc7a100t_0_1]
+program_hw_devices [get_hw_devices xc7a100t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0_1] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property PROGRAM.FILE {D:/COP/newsc/vivado/sccpu_project/sccpu_project.runs/impl_1/sccomp_top.bit} [get_hw_devices xc7a100t_0_1]
+program_hw_devices [get_hw_devices xc7a100t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0_1] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 11
+wait_on_run synth_1
+launch_runs impl_1 -jobs 11
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 11
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property PROGRAM.FILE {D:/COP/newsc/vivado/sccpu_project/sccpu_project.runs/impl_1/sccomp_top.bit} [get_hw_devices xc7a100t_0_1]
+program_hw_devices [get_hw_devices xc7a100t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0_1] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 11
+wait_on_run synth_1
+launch_runs impl_1 -jobs 11
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 11
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property PROGRAM.FILE {D:/COP/newsc/vivado/sccpu_project/sccpu_project.runs/impl_1/sccomp_top.bit} [get_hw_devices xc7a100t_0_1]
+program_hw_devices [get_hw_devices xc7a100t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0_1] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 11
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 11
+wait_on_run synth_1
+launch_runs impl_1 -jobs 11
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 11
+wait_on_run impl_1
+open_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0_1]
+set_property PROGRAM.FILE {D:/COP/newsc/vivado/sccpu_project/sccpu_project.runs/impl_1/sccomp_top.bit} [get_hw_devices xc7a100t_0_1]
+program_hw_devices [get_hw_devices xc7a100t_0_1]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0_1] 0]

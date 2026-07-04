@@ -1,0 +1,296 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/K/Desktop/new
+T_opt
+!s110 1744014416
+VmneYj[bM@z:68]hJ_?2gQ1
+Z1 04 9 4 work plcomp_tb fast 0
+=1-4c034f8f7cda-67f38c4a-394-67dc
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.5;63
+R0
+T_opt1
+!s110 1746453822
+VW2gM1?@YB?5[h52@]F1L92
+R1
+=1-4c034f8f7cda-6818c53e-110-1b58
+o-quiet -auto_acc_if_foreign -work work +acc
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1779178397
+VKKcVB5WXMob]@ClEQ[m=Q2
+R1
+=1-fc5ceedb1f61-6a0c1b9c-31-5154
+R2
+R3
+n@_opt2
+OL;O;10.6d;65
+valu
+!s110 1779178366
+!i10b 1
+!s100 SIfg7@M67H0[ZLRK1=[j`3
+Im7=;NnR>9n6UbX@QFTeg<3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/COP/new pl
+w1742460220
+8D:/COP/new pl/alu.v
+FD:/COP/new pl/alu.v
+L0 3
+Z7 OL;L;10.6d;65
+r1
+!s85 0
+31
+!s108 1779178366.000000
+!s107 ctrl_encode_def.v|D:/COP/new pl/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/alu.v|
+!i113 0
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vctrl
+Z9 !s110 1779178367
+!i10b 1
+!s100 CB^^fUiS][e=L<5bMhY2h0
+Iiz;QbHAQldQUG0G5lU2@e3
+R5
+R6
+w1742461154
+8D:/COP/new pl/ctrl.v
+FD:/COP/new pl/ctrl.v
+L0 3
+R7
+r1
+!s85 0
+31
+Z10 !s108 1779178367.000000
+!s107 ctrl_encode_def.v|D:/COP/new pl/ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/ctrl.v|
+!i113 0
+R8
+R3
+vdm
+R9
+!i10b 1
+!s100 ?a9DTC7HUn;al;lI0_UnW1
+I`SWQbmU]Kejjn0Xc[GVdC0
+R5
+R6
+w1742174830
+8D:/COP/new pl/dm.v
+FD:/COP/new pl/dm.v
+L0 3
+R7
+r1
+!s85 0
+31
+R10
+!s107 ctrl_encode_def.v|D:/COP/new pl/dm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/dm.v|
+!i113 0
+R8
+R3
+vEXT
+R9
+!i10b 1
+!s100 b<MV6mWQSa@F]hkhI@Odk2
+I3XmKm0@JzNH5S@b<8E[:D1
+R5
+R6
+w1742179198
+8D:/COP/new pl/EXT.v
+FD:/COP/new pl/EXT.v
+L0 2
+R7
+r1
+!s85 0
+31
+R10
+!s107 ctrl_encode_def.v|D:/COP/new pl/EXT.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/EXT.v|
+!i113 0
+R8
+R3
+n@e@x@t
+vim
+R9
+!i10b 1
+!s100 :2znz]:oA79[eSSUa7hQX2
+I<D35oJ=1FRbh^2@X3d2Qa1
+R5
+R6
+w1739069894
+8D:/COP/new pl/im.v
+FD:/COP/new pl/im.v
+L0 2
+R7
+r1
+!s85 0
+31
+R10
+!s107 D:/COP/new pl/im.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/im.v|
+!i113 0
+R8
+R3
+vNPC
+R9
+!i10b 1
+!s100 zf<H2MNhfgmTJd`_jea]L3
+IcHm9dQa5@[8zMjo?zBULU3
+R5
+R6
+w1742215236
+8D:/COP/new pl/NPC.v
+FD:/COP/new pl/NPC.v
+L0 3
+R7
+r1
+!s85 0
+31
+R10
+!s107 ctrl_encode_def.v|D:/COP/new pl/NPC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/NPC.v|
+!i113 0
+R8
+R3
+n@n@p@c
+vPC
+Z11 !s110 1779178368
+!i10b 1
+!s100 SAWYFmBA6mo^11_WJj?SN2
+Ihg7l_A?FLJejz2jj_TSM`2
+R5
+R6
+w1742319270
+8D:/COP/new pl/PC.v
+FD:/COP/new pl/PC.v
+L0 1
+R7
+r1
+!s85 0
+31
+R10
+!s107 D:/COP/new pl/PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/PC.v|
+!i113 0
+R8
+R3
+n@p@c
+vpl_reg
+R11
+!i10b 1
+!s100 >obaSig72df=ObFmThF_22
+Ia_3Em]FnnI1LS2=k33O_h3
+R5
+R6
+w1742319380
+8D:/COP/new pl/pl_reg.v
+FD:/COP/new pl/pl_reg.v
+L0 1
+R7
+r1
+!s85 0
+31
+Z12 !s108 1779178368.000000
+!s107 D:/COP/new pl/pl_reg.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/pl_reg.v|
+!i113 0
+R8
+R3
+vplcomp
+R11
+!i10b 1
+!s100 iG[Yb_S``KWebL0fmfL[=1
+I^O96VzieXOEUCn?LKHY`91
+R5
+R6
+w1739076262
+8D:/COP/new pl/plcomp.v
+FD:/COP/new pl/plcomp.v
+L0 2
+R7
+r1
+!s85 0
+31
+R12
+!s107 ctrl_encode_def.v|D:/COP/new pl/plcomp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/plcomp.v|
+!i113 0
+R8
+R3
+vplcomp_tb
+R11
+!i10b 1
+!s100 3RSY5e?Q@Q@>]j=_nZ;7`0
+IjA:W1FUGEP`J]HLPVOll^3
+R5
+R6
+w1742895530
+8D:/COP/new pl/plcomp_tb.v
+FD:/COP/new pl/plcomp_tb.v
+L0 2
+R7
+r1
+!s85 0
+31
+R12
+!s107 D:/COP/new pl/plcomp_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/plcomp_tb.v|
+!i113 0
+R8
+R3
+vPLCPU
+R11
+!i10b 1
+!s100 _eb1kf>HB33aOZ1QfS]@o3
+Ij;]3P9<moK8jj]blESjem1
+R5
+R6
+w1743409048
+8D:/COP/new pl/PLCPU.v
+FD:/COP/new pl/PLCPU.v
+L0 2
+R7
+r1
+!s85 0
+31
+R12
+!s107 ctrl_encode_def.v|D:/COP/new pl/PLCPU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/PLCPU.v|
+!i113 0
+R8
+R3
+n@p@l@c@p@u
+vRF
+R11
+!i10b 1
+!s100 <Kij_hRFz=^JSfBoozLTU0
+IYnm7zBBQ;<iEk?o:Jg>2W0
+R5
+R6
+w1739452186
+8D:/COP/new pl/RF.v
+FD:/COP/new pl/RF.v
+L0 1
+R7
+r1
+!s85 0
+31
+R12
+!s107 D:/COP/new pl/RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/COP/new pl/RF.v|
+!i113 0
+R8
+R3
+n@r@f

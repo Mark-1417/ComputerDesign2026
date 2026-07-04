@@ -1,0 +1,88 @@
+{C:/Users/K/Desktop/new pl/RF.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/RF.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}} {C:/Users/K/Desktop/new pl/ctrl_encode_def.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/ctrl_encode_def.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+
+} {} {}} {C:/Users/K/Desktop/new pl/EXT.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/EXT.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} {C:/Users/K/Desktop/new pl/NPC.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/NPC.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} {C:/Users/K/Desktop/new pl/pl_reg.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/pl_reg.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module pl_reg
+
+Top level modules:
+	pl_reg
+
+} {} {}} {C:/Users/K/Desktop/new pl/alu.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/alu.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {C:/Users/K/Desktop/new pl/plcomp.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/plcomp.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module plcomp
+
+Top level modules:
+	plcomp
+
+} {} {}} {C:/Users/K/Desktop/new pl/PLCPU.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/PLCPU.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module PLCPU
+
+Top level modules:
+	PLCPU
+
+} {} {}} {C:/Users/K/Desktop/new pl/ctrl.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/ctrl.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} {C:/Users/K/Desktop/new pl/im.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/im.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} {C:/Users/K/Desktop/new pl/plcomp_tb.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/plcomp_tb.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module plcomp_tb
+
+Top level modules:
+	plcomp_tb
+
+} {} {}} {C:/Users/K/Desktop/new pl/dm.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/dm.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} {C:/Users/K/Desktop/new pl/PC.v} {1 {vlog -work work -vopt -stats=none {C:/Users/K/Desktop/new pl/PC.v}
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}}

@@ -1,0 +1,83 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Tue Jun 16 21:16:30 2026
+| Host         : DESKTOP-T6RV42S running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file plcomp_top_control_sets_placed.rpt
+| Design       : plcomp_top
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    23 |
+| Unused register locations in slices containing registers |     9 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              64 |           36 |
+| No           | No                    | Yes                    |             386 |          136 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |             605 |          304 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++---------------------+-------------------------------------+-----------------------------+------------------+----------------+
+|     Clock Signal    |            Enable Signal            |       Set/Reset Signal      | Slice Load Count | Bel Load Count |
++---------------------+-------------------------------------+-----------------------------+------------------+----------------+
+|  CLK_100M_IBUF_BUFG |                                     | U_PLCPU/U_RF/rf_reg[2][0]_0 |                7 |             20 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/EX_MEM/sorted_sid_reg[0][0] | U_PLCPU/U_RF/rf_reg[2][0]_0 |               13 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[10][31][0]    | U_PLCPU/U_RF/rf_reg[2][0]_0 |               16 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[13][31][0]    | U_PLCPU/U_RF/rf_reg[2][0]_0 |               15 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[14][31][0]    | U_PLCPU/U_RF/rf_reg[2][0]_0 |               16 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[15][31][0]    | U_PLCPU/U_RF/rf_reg[2][0]_0 |               17 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[11][31][0]    | U_PLCPU/U_RF/rf_reg[2][0]_0 |               17 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[12][31][0]    | U_PLCPU/U_RF/rf_reg[2][0]_0 |               19 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[2][31][0]     | U_PLCPU/U_RF/rf_reg[2][0]_0 |               18 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[5][31][0]     | U_PLCPU/U_RF/rf_reg[2][0]_0 |               16 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[4][31][0]     | U_PLCPU/U_RF/rf_reg[2][0]_0 |               19 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[6][31][0]     | U_PLCPU/U_RF/rf_reg[2][0]_0 |               20 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[1][31]_0[0]   | U_PLCPU/U_RF/rf_reg[2][0]_0 |               14 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[9][31][0]     | U_PLCPU/U_RF/rf_reg[2][0]_0 |               19 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[8][31]_0[0]   | U_PLCPU/U_RF/rf_reg[2][0]_0 |               18 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[3][31][0]     | U_PLCPU/U_RF/rf_reg[2][0]_0 |               14 |             32 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/MEM_WB/rf_reg[7][31][0]     | U_PLCPU/U_RF/rf_reg[2][0]_0 |               22 |             32 |
+| ~CLK_100M_IBUF_BUFG | U_PLCPU/ID_EX/PC_reg[31]            | U_PLCPU/U_RF/rf_reg[2][0]_0 |               12 |             32 |
+|  MemRead_BUFG       |                                     |                             |               19 |             32 |
+|  n_0_1451_BUFG      |                                     |                             |               17 |             32 |
+| ~CLK_100M_IBUF_BUFG | U_PLCPU/ID_EX/E[0]                  | U_PLCPU/U_RF/rf_reg[2][0]_0 |               19 |             61 |
+|  CLK_100M_IBUF_BUFG | U_PLCPU/EX_MEM/MemWrite             |                             |               16 |             64 |
+| ~CLK_100M_IBUF_BUFG |                                     | U_PLCPU/U_RF/rf_reg[2][0]_0 |              129 |            366 |
++---------------------+-------------------------------------+-----------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 16+    |                    23 |
++--------+-----------------------+
+
+

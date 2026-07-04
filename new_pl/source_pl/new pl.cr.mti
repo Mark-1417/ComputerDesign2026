@@ -1,0 +1,88 @@
+{D:/COP/new pl/pl_reg.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/pl_reg.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module pl_reg
+
+Top level modules:
+	pl_reg
+
+} {} {}} {D:/COP/new pl/NPC.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/NPC.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
+} {} {}} {D:/COP/new pl/EXT.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/EXT.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module EXT
+
+Top level modules:
+	EXT
+
+} {} {}} {D:/COP/new pl/alu.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/alu.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} {D:/COP/new pl/plcomp.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/plcomp.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module plcomp
+
+Top level modules:
+	plcomp
+
+} {} {}} {D:/COP/new pl/PLCPU.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/PLCPU.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module PLCPU
+
+Top level modules:
+	PLCPU
+
+} {} {}} {D:/COP/new pl/ctrl.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/ctrl.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} {D:/COP/new pl/im.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/im.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} {D:/COP/new pl/plcomp_tb.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/plcomp_tb.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module plcomp_tb
+
+Top level modules:
+	plcomp_tb
+
+} {} {}} {D:/COP/new pl/dm.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/dm.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} {D:/COP/new pl/PC.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/PC.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {D:/COP/new pl/ctrl_encode_def.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/ctrl_encode_def.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+
+} {} {}} {D:/COP/new pl/RF.v} {1 {vlog -work work -vopt -stats=none {D:/COP/new pl/RF.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module RF
+
+Top level modules:
+	RF
+
+} {} {}}

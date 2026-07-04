@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Jun 16 21:15:56 2026
+# Process ID: 5568
+# Current directory: D:/COP/new_pl/vivado/plcpu_project/plcpu_project.runs/impl_1
+# Command line: vivado.exe -log plcomp_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source plcomp_top.tcl -notrace
+# Log file: D:/COP/new_pl/vivado/plcpu_project/plcpu_project.runs/impl_1/plcomp_top.vdi
+# Journal file: D:/COP/new_pl/vivado/plcpu_project/plcpu_project.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source plcomp_top.tcl -notrace
